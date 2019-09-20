@@ -1,0 +1,10 @@
+$darkFull : #1F2041;
+$darkHeight : lighten($darkFull , 25%);
+$darkMedium : lighten($darkHeight , 25%);
+$darkLow : lighten($darkMedium , 25%);
+$darkZero : lighten($darkLow , 20%);
+$purple : #BC9CFF;
+$green : #6FCF97;
+body{
+	background:$darkFull;
+}
