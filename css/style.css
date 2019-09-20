@@ -1,3 +1,35 @@
 body {
-  background: #1F2041;
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  min-width: 320px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.headerCenter, .headerCenter-name, .headerCenter-menu, .headerCenter-menu-ul {
+  display: flex;
+}
+
+.headerCenter {
+  width: 80%;
+}
+
+.headerCenter-name {
+  margin-top: 1%;
+  height: 40%;
+  width: 30%;
+}
+
+.headerCenter-menu {
+  width: 70%;
+}
+
+.headerCenter-menu-ul {
+  list-style-type: none;
+  justify-content: space-around;
+  width: 80%;
 }
