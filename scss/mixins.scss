@@ -1,0 +1,22 @@
+@import 'color.scss';
+@import 'fonts.scss';
+@mixin textBut{
+	font-size:15px;	
+	letter-spacing:2px;
+	font-weight:bold;
+	font-family:$staticText;
+}
+@mixin butStyleTransparent{
+	background:transparent;
+	border:2px solid $purple;
+	color:$purple;
+	border-radius:22px;
+	@include textBut;
+}
+@mixin butStylePurple{
+	background:linear-gradient(180deg, $purple 0%, #8BA4F9 100%);
+	border:0px solid $purple;
+	color:$darkZero;
+	border-radius:22px;
+	@include textBut;
+}

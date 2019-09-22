@@ -1,3 +1,74 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Montserrat;
+  /* Гарнитура шрифта */
+  src: url(../fonts/Montserrat.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: Quicksand;
+  color: #1F2041;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Quicksand;
+  color: #1F2041;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #1F2041;
+}
+
+body {
+  font-size: 19px;
+  color: #575870;
+  font-family: Montserrat;
+}
+
+@font-face {
+  font-family: Montserrat;
+  /* Гарнитура шрифта */
+  src: url(../fonts/Montserrat.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: Quicksand;
+  color: #1F2041;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Quicksand;
+  color: #1F2041;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #1F2041;
+}
+
+body {
+  font-size: 19px;
+  color: #575870;
+  font-family: Montserrat;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,21 +86,73 @@ header {
 }
 
 .headerCenter {
-  width: 80%;
+  width: 83%;
 }
 
 .headerCenter-name {
-  margin-top: 1%;
-  height: 40%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 100%;
   width: 30%;
+}
+
+#one-log {
+  width: 10%;
+  height: 60%;
+}
+
+#two-log {
+  margin-left: 2%;
+  margin-top: 3%;
+  height: 20%;
 }
 
 .headerCenter-menu {
   width: 70%;
 }
 
+#headerButTwo {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border: 0px solid #BC9CFF;
+  color: #F4F4F6;
+  border-radius: 22px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: Montserrat;
+  height: 50%;
+  margin: 10px;
+  width: 10%;
+}
+
+#headerButOne {
+  background: transparent;
+  border: 2px solid #BC9CFF;
+  color: #BC9CFF;
+  border-radius: 22px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: Montserrat;
+  height: 50%;
+  margin: 10px;
+  width: 10%;
+}
+
 .headerCenter-menu-ul {
   list-style-type: none;
   justify-content: space-around;
   width: 80%;
+}
+
+.headerCenter-menu-ul select {
+  color: #8F8FA0;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  font-family: Montserrat;
+}
+
+.headerCenter-menu-ul a {
+  color: #8F8FA0;
 }

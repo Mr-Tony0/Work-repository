@@ -1,12 +1,9 @@
-$darkFull : #1F2041;
-$darkHeight : lighten($darkFull , 25%);
-$darkMedium : lighten($darkHeight , 25%);
-$darkLow : lighten($darkMedium , 25%);
-$darkZero : lighten($darkLow , 20%);
-$purple : #BC9CFF;
-$green : #6FCF97;
+@import 'color.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
 
 body{
+	
 	margin:0;
 	padding:0;
 	max-width:1920px;
@@ -15,23 +12,60 @@ body{
 header{
 	display:flex;
 	justify-content:center;
+	
 }
 .headerCenter,.headerCenter-name,.headerCenter-menu,.headerCenter-menu-ul{
 	display:flex;
 }
 .headerCenter{
-	width:80%;
+	width:83%;
 }
 .headerCenter-name{
-	margin-top:1%;
-	height:40%;
+	padding-top:1%;
+	padding-bottom:1%;
+	height:100%;
 	width:30%;
+	
+}
+#one-log{
+	width:10%;
+	height:60%;
+}
+#two-log{
+	margin-left:2%;
+	margin-top:3%;
+	height:20%;
+	
 }
 .headerCenter-menu{
 	width:70%;
+	
+}
+#headerButTwo{
+		@include butStylePurple;
+		height:50%;
+		margin:10px;
+		width:10%;
+}
+#headerButOne{
+		@include butStyleTransparent;
+		height:50%;
+		margin:10px;
+		width:10%;
 }
 .headerCenter-menu-ul{
 	list-style-type:none;
 	justify-content:space-around;
 	width:80%;
+	select{
+		color:$darkMedium;
+		border: none;
+		outline: none;
+		font-size:19px;
+		font-family:$staticText;
+		
+	}
+	a{
+		color:$darkMedium;
+	}
 }

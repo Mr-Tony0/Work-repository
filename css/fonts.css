@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Montserrat;
+  /* Гарнитура шрифта */
+  src: url(../fonts/Montserrat.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: Quicksand;
+}
+
+h2 {
+  font-size: 19px;
+  font-family: Quicksand;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 12px;
+}
