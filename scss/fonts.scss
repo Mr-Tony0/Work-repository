@@ -1,3 +1,4 @@
+@import 'color.scss';
 @font-face {
     font-family: Montserrat; /* Гарнитура шрифта */
     src: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */
@@ -6,6 +7,8 @@
 $bigText : Quicksand;
 $staticText : Montserrat;
 
+$sizeMedium: 16px;
+$sizeLow: 15px;
 a{
 	text-decoration:none;
 }

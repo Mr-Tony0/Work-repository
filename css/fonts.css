@@ -11,16 +11,25 @@ a {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-family: Quicksand;
+  color: #1F2041;
 }
 
 h2 {
-  font-size: 19px;
+  font-size: 24px;
   font-family: Quicksand;
+  color: #1F2041;
 }
 
 h3 {
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 20px;
+  color: #1F2041;
+}
+
+body {
+  font-size: 19px;
+  color: #575870;
+  font-family: Montserrat;
 }

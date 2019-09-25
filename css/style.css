@@ -85,7 +85,7 @@ header {
   display: flex;
 }
 
-.headerCenter {
+.headerCenter, .headerMobile {
   width: 83%;
 }
 
@@ -97,14 +97,14 @@ header {
 }
 
 #one-log {
-  width: 10%;
-  height: 60%;
+  width: 40px;
+  height: 40px;
 }
 
 #two-log {
   margin-left: 2%;
-  margin-top: 3%;
-  height: 20%;
+  margin-top: 12px;
+  height: 15px;
 }
 
 .headerCenter-menu {
@@ -112,6 +112,8 @@ header {
 }
 
 #headerButTwo {
+  min-width: 75px;
+  max-height: 31.5px;
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   border: 0px solid #BC9CFF;
   color: #F4F4F6;
@@ -126,6 +128,8 @@ header {
 }
 
 #headerButOne {
+  max-height: 31.5px;
+  min-width: 75px;
   background: transparent;
   border: 2px solid #BC9CFF;
   color: #BC9CFF;
@@ -155,4 +159,82 @@ header {
 
 .headerCenter-menu-ul a {
   color: #8F8FA0;
+}
+
+.headerMenuClick {
+  height: 60%;
+  width: 32px;
+  background-image: url(../img/nav.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mobile {
+  display: none;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.desktop {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  /*
+	.headerCenter-menu-ul{
+		@include sizeLaptop;
+		select{
+			@include sizeLaptop;
+		}
+	}*/
+  .headerCenter {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .headerCenter-menu {
+    width: 85%;
+  }
+  .headerCenter-name {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 900px) {
+  .headerCenter-menu {
+    font-size: 16px;
+  }
+  .headerCenter-menu select {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+  .headerCenter {
+    width: 95%;
+  }
+  .headerCenter-menu {
+    font-size: 15px;
+  }
+  .headerCenter-menu select {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  .headerCenter {
+    width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
 }
