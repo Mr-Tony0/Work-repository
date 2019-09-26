@@ -89,8 +89,25 @@ nav{
 	display:flex;
 	justify-content:center;
 	
+	li{
+	list-style-type:none;
+	display:flex;
+	list-style-type:none;
+	justify-content:center;
+	width:80%;
+	select{
+		color:$darkMedium;
+		border: none;
+		outline: none;
+		font-size:19px;
+		font-family:$staticText;
+		
+	}
+	a{
+		color:$darkMedium;
+	}
+	}
 }
-
 
 
 

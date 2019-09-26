@@ -1,9 +1,20 @@
 var click = 0;
+$('nav').hide();
 var element = document.getElementById('click');
 element.onclick = function(){
-	alert(1);
+	click++
+	$('nav').show();
+		if(click == 2){
+			$('nav').hide();
+			click = 0;
+		}
+	$(window).resize(function() { 
+		if(document.body.clientWidth>750){
+			$('nav').hide();
+			click = 0
+		}
+	})
 }
-
 
 
 
