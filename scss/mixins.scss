@@ -1,8 +1,8 @@
 @import 'color.scss';
 @import 'fonts.scss';
 @mixin textBut{
-	font-size:15px;	
-	letter-spacing:2px;
+	font-size:12px;	
+	
 	font-weight:bold;
 	font-family:$staticText;
 }

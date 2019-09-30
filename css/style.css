@@ -4,11 +4,13 @@
   /* Гарнитура шрифта */
   src: url(../fonts/Montserrat.ttf);
   /* Путь к файлу со шрифтом */
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
 }
 
 a {
   text-decoration: none;
-  color: #575870;
+  color: #8F8FA0;
 }
 
 h1 {
@@ -37,7 +39,7 @@ body {
 
 p {
   font-size: 19px;
-  color: #8F8FA0;
+  color: #575870;
   font-family: Montserrat;
 }
 
@@ -46,11 +48,13 @@ p {
   /* Гарнитура шрифта */
   src: url(../fonts/Montserrat.ttf);
   /* Путь к файлу со шрифтом */
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
 }
 
 a {
   text-decoration: none;
-  color: #575870;
+  color: #8F8FA0;
 }
 
 h1 {
@@ -79,7 +83,7 @@ body {
 
 p {
   font-size: 19px;
-  color: #8F8FA0;
+  color: #575870;
   font-family: Montserrat;
 }
 
@@ -132,8 +136,7 @@ header {
   border: 0px solid #BC9CFF;
   color: #F4F4F6;
   border-radius: 22px;
-  font-size: 15px;
-  letter-spacing: 2px;
+  font-size: 12px;
   font-weight: bold;
   font-family: Montserrat;
   height: 50%;
@@ -148,8 +151,7 @@ header {
   border: 2px solid #BC9CFF;
   color: #BC9CFF;
   border-radius: 22px;
-  font-size: 15px;
-  letter-spacing: 2px;
+  font-size: 12px;
   font-weight: bold;
   font-family: Montserrat;
   height: 50%;
@@ -225,15 +227,21 @@ footer {
 
 .footerGeneral {
   display: flex;
-  width: 90%;
+  width: 80%;
 }
 
 .footer-center {
-  width: 16.666%;
+  width: 20%;
+  padding-left: 2%;
 }
 
 .big {
-  width: 25%;
+  width: 20%;
+}
+
+.big input {
+  height: 30px;
+  width: 230px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1100px) {

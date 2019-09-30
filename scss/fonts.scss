@@ -2,15 +2,19 @@
 @font-face {
     font-family: Montserrat; /* Гарнитура шрифта */
     src: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */
+	
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand.ttf);
 
 }
+
 $bigText : Quicksand;
 $staticText : Montserrat;
 $sizeMedium: 16px;
 $sizeLow: 15px;
 a{
 	text-decoration:none;
-	color:$darkHeight;
+	color:$darkMedium;
 }
 h1{
 	font-size:26px;
@@ -36,6 +40,6 @@ body{
 }
 p{
 	font-size:19px;
-	color:$darkMedium;
+	color:$darkHeight;
 	font-family:$staticText;
 }

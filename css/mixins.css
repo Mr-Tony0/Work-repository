@@ -4,11 +4,13 @@
   /* Гарнитура шрифта */
   src: url(../fonts/Montserrat.ttf);
   /* Путь к файлу со шрифтом */
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
 }
 
 a {
   text-decoration: none;
-  color: #575870;
+  color: #8F8FA0;
 }
 
 h1 {
@@ -37,6 +39,6 @@ body {
 
 p {
   font-size: 19px;
-  color: #8F8FA0;
+  color: #575870;
   font-family: Montserrat;
 }
