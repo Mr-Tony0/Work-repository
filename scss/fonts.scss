@@ -1,11 +1,11 @@
 @import 'color.scss';
 @font-face {
-    font-family: Montserrat; /* Гарнитура шрифта */
-    src: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */
-	
 	font-family: Quicksand;
 	src: url(../fonts/Quicksand.ttf);
-
+}
+@font-face {
+	font-family: Montserrat; /* Гарнитура шрифта */
+	src: url(../fonts/Montserrat.ttf); /* Путь к файлу со шрифтом */
 }
 
 $bigText : Quicksand;

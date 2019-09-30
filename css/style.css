@@ -1,11 +1,14 @@
 @charset "UTF-8";
 @font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
+}
+
+@font-face {
   font-family: Montserrat;
   /* Гарнитура шрифта */
   src: url(../fonts/Montserrat.ttf);
   /* Путь к файлу со шрифтом */
-  font-family: Quicksand;
-  src: url(../fonts/Quicksand.ttf);
 }
 
 a {
@@ -44,12 +47,15 @@ p {
 }
 
 @font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
+}
+
+@font-face {
   font-family: Montserrat;
   /* Гарнитура шрифта */
   src: url(../fonts/Montserrat.ttf);
   /* Путь к файлу со шрифтом */
-  font-family: Quicksand;
-  src: url(../fonts/Quicksand.ttf);
 }
 
 a {
@@ -136,7 +142,7 @@ header {
   border: 0px solid #BC9CFF;
   color: #F4F4F6;
   border-radius: 22px;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   font-family: Montserrat;
   height: 50%;
@@ -151,7 +157,7 @@ header {
   border: 2px solid #BC9CFF;
   color: #BC9CFF;
   border-radius: 22px;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
   font-family: Montserrat;
   height: 50%;
