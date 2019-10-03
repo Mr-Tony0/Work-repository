@@ -121,6 +121,10 @@ nav{
 	justify-content:space-between;
 	
 }
+.footerGeneral-center{
+	display:flex;
+	justify-content:center
+}
 .end{
 	border-top:1px solid $darkLow;
 }
@@ -134,10 +138,18 @@ nav{
 	padding-top:1%;
 	
 	img{
-		float:right;
+		//float:right;
 		margin-left:4%;
 		min-width:14.4px;
 		width:5%;
+		//heigh:100px;
+	}
+}
+.position{
+
+	img{
+		float:right;
+		min-width:14.4px;
 	}
 }
 .big{

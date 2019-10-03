@@ -15,7 +15,22 @@ element.onclick = function(){
 		}
 	})
 }
-
+var click2 = 0;
+var element2 = document.getElementById('click2');
+element2.onclick = function(){
+	click2++
+	$('nav').show();
+		if(click2 == 2){
+			$('nav').hide();
+			click2 = 0;
+		}
+	$(window).resize(function() { 
+		if(document.body.clientWidth>750){
+			$('nav').hide();
+			click2 = 0
+		}
+	})
+}
 
 
 
