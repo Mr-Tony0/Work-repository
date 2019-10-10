@@ -192,12 +192,19 @@ nav{
 }
 .buttonStandart{
 	width:300px;
-	height:35px;
+	height:40px;
 }
 .purple{
 	@include butStylePurple;
 }
-
+.buttonMini{
+	width:100px;
+	height:40px;
+	
+}
+.transparent{
+	@include butStyleTransparent;
+}
 
 
 

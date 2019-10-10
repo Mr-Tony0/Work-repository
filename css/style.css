@@ -330,7 +330,7 @@ nav li a {
 
 .buttonStandart {
   width: 300px;
-  height: 35px;
+  height: 40px;
 }
 
 .purple {
@@ -339,6 +339,23 @@ nav li a {
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
   border: 0px solid #BC9CFF;
   color: #F4F4F6;
+  border-radius: 22px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+.buttonMini {
+  width: 100px;
+  height: 40px;
+}
+
+.transparent {
+  max-height: 31.5px;
+  min-width: 75px;
+  background: transparent;
+  border: 2px solid #BC9CFF;
+  color: #BC9CFF;
   border-radius: 22px;
   font-size: 18px;
   font-weight: bold;
