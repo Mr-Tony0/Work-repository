@@ -183,8 +183,20 @@ nav{
 .inputMiniElement{
 	@include inputStandart;
 }
-
-
+.forms{
+	display:flex;
+	flex-direction:column;
+}
+.forms-flex{
+	display:flex;
+}
+.buttonStandart{
+	width:300px;
+	height:35px;
+}
+.purple{
+	@include butStylePurple;
+}
 
 
 
