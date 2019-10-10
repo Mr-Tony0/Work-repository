@@ -24,3 +24,8 @@
 	border-radius:22px;
 	@include textBut;
 }
+@mixin inputStandart{
+	border:1px solid $darkLow;
+	border-radius:4px;
+	height:35px;
+}

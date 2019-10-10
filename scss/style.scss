@@ -171,8 +171,18 @@ nav{
 	input:-ms-input-placeholder{text-overflow:ellipsis;}
 }
 
-
-
+.inputStandartElement{
+	@include inputStandart;
+	width:300px;
+	
+}
+.inputMediumtElement{
+	@include inputStandart;
+	
+}
+.inputMiniElement{
+	@include inputStandart;
+}
 
 
 
