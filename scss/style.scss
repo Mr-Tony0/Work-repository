@@ -114,6 +114,7 @@ nav{
 	width:100%;
 	display:flex;
 	justify-content:center;
+	margin-top:4%;
 }
 .footerGeneral{
 	display:flex;
@@ -187,20 +188,48 @@ nav{
 	display:flex;
 	flex-direction:column;
 	background:white;
-	//width:16%;
-	//padding:2%;
+	width:350px;
+	padding-left:4%;
+	padding-bottom:2%;
+	border-radius: 4px;
+	button{
+		margin-top:6%;
+	}
 }
 .fixed-forms{
-	margin-top:5%;
-	width:30%;
+	padding-top:5%;
+	width: 83%;
+	display:flex;
+	
+}
+.fixed-forms-column{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+}
+.second{
+	justify-content:flex-end;
+	text-align:right;
+	p{
+		margin-left:70%;
+		width:30%;
+		
+	}
+}
+.mini{
+	font-size:18px;
 }
 .forms-flex{
 	display:flex;
+	justify-content:space-around;
+	width:86%;
+	
 }
 .buttonStandart{
 	width:300px;
 	height:40px;
 }
+
 .purple{
 	@include butStylePurple;
 }
@@ -218,6 +247,8 @@ nav{
 	background-size: 100% 100%;
 	width:100%;
 	height:850px;
+	display:flex;
+	justify-content:center;
 }
 
 
