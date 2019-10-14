@@ -188,19 +188,33 @@ nav{
 	display:flex;
 	flex-direction:column;
 	background:white;
+	border-radius: 4px;
+}
+.index{
 	width:350px;
 	padding-left:4%;
 	padding-bottom:2%;
-	border-radius: 4px;
 	button{
 		margin-top:6%;
+	}
+}
+.registr{
+	height:500px;
+	padding-left:2%;
+	padding-right:2%;
+	p{
+		margin:0;
+		padding:2%;
+	}
+	input,button{
+		margin-bottom:3%;
 	}
 }
 .fixed-forms{
 	padding-top:5%;
 	width: 83%;
 	display:flex;
-	
+	justify-content:center;
 }
 .fixed-forms-column{
 	width:50%;
@@ -220,10 +234,11 @@ nav{
 	font-size:18px;
 }
 .forms-flex{
-	display:flex;
+	display:flex;	
+}
+.arround{
 	justify-content:space-around;
 	width:86%;
-	
 }
 .buttonStandart{
 	width:300px;
@@ -243,14 +258,12 @@ nav{
 }
 .general{
 	background-image:url(../img/image3.png);
-	background-repeat:no-repeat;
-	background-size: 100% 100%;
-	width:100%;
-	height:800px;
-	display:flex;
-	justify-content:center;
+	@include generalBlock;
 }
-
+.general_registr{
+	background-image:url(../img/image4.png);
+	@include generalBlock;
+}
 
 
 
@@ -361,7 +374,7 @@ nav{
 	.general{
 		height:550px;
 	}
-	.forms{
+	.index{
 		width:250px;
 		padding-left:16%;
 		padding-bottom:10%;

@@ -63,38 +63,30 @@
 	<button class="headerButTwo">REGISTER</button>
 </nav>
 
-<section class="general">
+<section class="general_registr">
 <div class="fixed-forms">
-	<div class="fixed-forms-column first">
-	<div class="forms index">
-		<h3>Найдём номера под ваши пожелания</h3>
-		<div class="forms-flex arround">
-			<div>
-				<h3 class="mini">прибытие</h3>
-				<input type = "date" class="inputMiniElement">
-			</div>
-			<div>
-				<h3 class="mini">выезд</h3>
-				<input type = "date" class="inputMiniElement">
-			</div>
-		</div>
-		<h3 class="mini">гости</h3>
-		
-		<select class="inputStandartElement">
-			<option>Сколько гостей</option>
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-			<option>4+</option>
-		</select>
-		<button class="buttonStandart purple">ПОДОБРАТЬ НОМЕР</button>
-	</div>
-	<!--доделать-->
 	
+	<div class="forms registr">
+		<h3>Регистрация аккаунта</h3>
+		<input type="text" placeholder= "Имя" class="inputStandartElement">
+		<input type="text" placeholder= "Фамилия" class="inputStandartElement">
+		<div class="forms-flex arround">
+			<div><input type="radio"> Мужчина</div>
+			<div><input type="radio"> Женщина</div>
+		</div>
+		<h3>дата рождение</h3>
+		<input type="number" placeholder="дд.мм.гггг" class="inputStandartElement">
+		<h3>данные для входа в сервис</h3>
+		<input type="text" placeholder= "Email" class="inputStandartElement">
+		<input type="text" placeholder= "Пароль" class="inputStandartElement">
+		<button class="buttonStandart purple">ПЕРЕЙТИ К ОПЛАТЕ</button>
+		<!--toggle add-->
+		<div class="forms-flex">
+			<p>уже есть аккаунт на TOXIN</p>
+			<button class="buttonMini transparent">Войти</button>
+		</div>
 	</div>
-	<div class="fixed-forms-column second">
-		<p>Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
-	</div>
+
 </div>
 </section>
 
