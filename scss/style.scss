@@ -15,48 +15,46 @@ header{
 	justify-content:center;
 	
 }
-.headerCenter,.headerCenter-name,.headerCenter-menu,.headerCenter-menu-ul{
+.headerCenter,.logo,.menu,.menu__ul{
 	display:flex;
 }
 .headerCenter,.headerMobile{
 	width:83%;
 }
-.headerCenter-name{
+.logo{
 	padding-top:1%;
 	padding-bottom:1%;
 	height:100%;
 	width:30%;
 	
 }
-.one-log{
-	
+.img_size{
 	width:40px;
 	height:40px;
 }
-.two-log{
+.text_size{
 	margin-left:2%;
 	margin-top:12px;
 	margin-bottom:12px;
 	height:15px;
 	
 }
-.headerCenter-menu{
+.menu{
 	width:70%;
 	
 }
-.headerButTwo{
-		@include butStylePurple;
-		height:50%;
-		margin:10px;
-		width:10%;
+.buttonBlock__button{
+	height:50%;
+	margin:10px;
+	width:10%;
 }
-.headerButOne{
-		@include butStyleTransparent;
-		height:50%;
-		margin:10px;
-		width:10%;
+.buttonLogin_color{
+	@include butStyleTransparent;	
 }
-.headerCenter-menu-ul{
+.buttonRegistr_color{
+	@include butStylePurple;
+}
+.menu__ul{
 	list-style-type:none;
 	justify-content:space-around;
 	width:80%;
@@ -72,7 +70,12 @@ header{
 		color:$darkMedium;
 	}
 }
-.headerMenuClick{
+.headerCenter__clickBlock{
+	display:flex;
+	justify-content:flex-end;
+	width:100%;
+}
+.headerCenter__click{
 	height: 60%;
     width: 32px;
     background-image: url(../img/nav.png);
@@ -286,17 +289,17 @@ nav{
 }
 @media screen and (min-width: 600px) and (max-width: 1000px){
 
-	.headerCenter-menu{
+	.menu{
 		width:85%;
 	
 	}
-	.headerCenter-name{
+	.logo{
 		width:15%;
 	
 	}
 }
 @media screen and (min-width: 850px) and (max-width: 900px){
-	.headerCenter-menu{
+	.menu{
 		font-size:$sizeMedium;
 		select{
 			font-size:$sizeMedium;
@@ -312,7 +315,7 @@ nav{
 		width:95%;
 	}
 	
-	.headerCenter-menu{
+	.menu{
 		font-size:$sizeLow;
 		select{
 			font-size:$sizeLow;
@@ -359,11 +362,11 @@ nav{
 			font-size:11px;
 		}
 	}
-	.one-log{
+	.img_size{
 		width:20px;
 		height:20px;
 	}
-	.two-log{
+	.text_size{
 		height:8px;
 	}
 	.second p{
