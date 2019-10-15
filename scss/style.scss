@@ -43,6 +43,9 @@ header{
 	width:70%;
 	
 }
+.buttonBlock{
+	display:flex;
+}
 .buttonBlock__button{
 	height:50%;
 	margin:10px;
@@ -156,7 +159,7 @@ nav{
 		min-width:14.4px;
 	}
 }
-.big{
+.footerGeneral__section{
 	padding:0;
 	p{
 		padding:0;
@@ -351,7 +354,7 @@ nav{
 		display:flex;
 	}
 	.footerGeneral{
-		.footer-center,.big{
+		.footer-center,.footerGeneral__section{
 			padding:0;
 
 		}
@@ -396,7 +399,7 @@ nav{
 	}
 }
 @media screen and (min-width: 750px) and (max-width: 870px){
-	.big{
+	.footerGeneral__section{
 		input{
 			width:160px;
 		}

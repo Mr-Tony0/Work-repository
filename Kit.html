@@ -32,8 +32,10 @@
 					<li class="menu__li"><a href="">News</a></li>
 					<li class="menu__li"><a href="">Documentation</a></li>
 				</ul>
-				<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
-				<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+				<div class="buttonBlock">
+					<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
+					<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+				</div>
 			</div>
 			<div class="headerCenter__clickBlock mobile">
 				<div class="headerCenter__click" id="click">
@@ -46,83 +48,84 @@
 	
 	<!--header mobile-->
 	
-	<nav>
-		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">About Us</a></li>
-			<li>
+	<nav class="navigation">
+		<ul class="navigation__ul">
+			<li class="navigation__li"><a href="">Home</a></li>
+			<li class="navigation__li"><a href="">About Us</a></li>
+			<li class="navigation__li">
 				<select>
 					<option><a href="">Services</a></option>
 					<option><a href="">Services</a></option>
 					<option><a href="">Services</a></option>
 				</select>
 			</li>
-			<li><a href="">Careers</a></li>
-			<li><a href="">News</a></li>
-			<li><a href="">Documentation</a></li>
+			<li class="navigation__li"><a href="">Careers</a></li>
+			<li class="navigation__li"><a href="">News</a></li>
+			<li class="navigation__li"><a href="">Documentation</a></li>
 		</ul>
-		<button ><!--class="headerButOne"-->LOGIN</button>
-		<button ><!--class="headerButTwo"-->REGISTER</button>
+		<div class="buttonBlock">
+			<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
+			<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+		</div>
+		
 	</nav>
 	
 	<!--header register-->
 	
 <header>
-	<div ><!--class="headerCenter"-->
-		<div ><!--class="headerCenter-name"-->
-			<img src="./img/Group.png" alt=""><!--class="one-log"-->
-			<img src="./img/TOXIN.png"><!--class="two-log"-->
-			<p>
+		<div class="headerCenter">
+			<div class="logo">
+				<img class="logo__img img_size" src="./img/Group.png" alt="">
+				<img class="logo__img text_size" src="./img/TOXIN.png">
+			</div>
+			<div class="menu desktop">
+				<ul class="menu__ul">
+					<li class="menu__li"><a href="">Home</a></li>
+					<li class="menu__li"><a href="">About Us</a></li>
+					<li class="menu__li">
+						<select>
+							<option><a href="">Services</a></option>
+							<option><a href="">Services</a></option>
+							<option><a href="">Services</a></option>
+						</select>
+					</li>
+					<li class="menu__li"><a href="">Careers</a></li>
+					<li class="menu__li"><a href="">News</a></li>
+					<li class="menu__li"><a href="">Documentation</a></li>
+					<li class="menu__li">|</li>
+					<li class="menu__li"><a href="">Cosmin Negoita</a></li>
+				</ul>
+			</div>
+			<div class="headerCenter__clickBlock mobile">
+				<div class="headerCenter__click" id="click">
 				
-			</p>
-		</div>
-		<div ><!--class="headerCenter-menu desktop"-->
-			<ul ><!--class="class="headerCenter-menu-ul""-->
-				<li><a href="">Home</a></li>
-				<li><a href="">About Us</a></li>
-				<li>
-					<select>
-						<option><a href="">Services</a></option>
-						<option><a href="">Services</a></option>
-						<option><a href="">Services</a></option>
-					</select>
-				</li>
-				<li><a href="">Careers</a></li>
-				<li><a href="">News</a></li>
-				<li><a href="">Documentation</a></li>
-				<li>|</li>
-				<li><a href="">Cosmin Negoita</a></li>
-			</ul>
-			
-		</div>
-		<div ><!--class=" class="headerCenter-menu mobile"""-->
-			<div id="click2"><!--class=" class="headerMenuClick"-->
-			
+				</div>
 			</div>
 		</div>
-	</div>
 		
-</header>
+	</header>
 
 <!--header mobile-->
 	
-	<nav>
-		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">About Us</a></li>
-			<li>
+	<nav class="navigation">
+		<ul class="navigation__ul">
+			<li class="navigation__li"><a href="">Home</a></li>
+			<li class="navigation__li"><a href="">About Us</a></li>
+			<li class="navigation__li">
 				<select>
 					<option><a href="">Services</a></option>
 					<option><a href="">Services</a></option>
 					<option><a href="">Services</a></option>
 				</select>
 			</li>
-			<li><a href="">Careers</a></li>
-			<li><a href="">News</a></li>
-			<li><a href="">Documentation</a></li>
+			<li class="navigation__li"><a href="">Careers</a></li>
+			<li class="navigation__li"><a href="">News</a></li>
+			<li class="navigation__li"><a href="">Documentation</a></li>
 		</ul>
-		<button >LOGIN</button><!--class=" class="headerButOne"-->
-		<button >REGISTER</button><!--class="headerButTwo"-->
+		<div class="buttonBlock">
+			<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
+			<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+		</div>
 	</nav>
 	
 	<!--***page forms***-->
@@ -401,34 +404,36 @@
 	<!--footer-->
 	
 	<footer>
-	<div ><!--class="footerCenter"-->
-		<div ><!--class="footerGeneral"-->
-			<section ><!--class="big"-->
-				<img src="./img/Group.png" alt=""><!-- class="one-log"-->
-				<img src="./img/TOXIN.png"><!--class="two-log"-->
+	<div class="footerCenter">
+		<div class="footerGeneral">
+			<section class="footerGeneral__section">
+			<div class="logo">
+				<img class="logo__img img_size" src="./img/Group.png" alt="">
+				<img class="logo__img text_size" src="./img/TOXIN.png">
+			</div>
 				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</p>
 			</section>
-			<section ><!--class="footer-center"-->
+			<section  class="footerGeneral__sectionCenter"><!--class="footer-center"-->
 				<h2>NAVIGATION</h2>
 				<p><a href="#">About Us</a></p>
 				<p><a href="#">News</a></p>
 				<p><a href="#">Support</a></p>
 				<p><a href="#">Protucts</a></p>
 			</section>
-			<section ><!--class="footer-center"-->
+			<section  class="footerGeneral__sectionCenter"><!--class="footer-center"-->
 			<h2>ABOUT US</h2>
 				<p><a href="#">Who we are</a></p>
 				<p><a href="#">Our team</a></p>
 				<p><a href="#">Careers</a></p>
 				<p><a href="#">Investors</a></p>
 			</section>
-			<section ><!--class="footer-center"-->
+			<section  class="footerGeneral__sectionCenter"><!--class="footer-center"-->
 			<h2>SUPPORT</h2>
 				<p><a href="#">Documentation</a></p>
 				<p><a href="#">Community</a></p>
 				<p><a href="#">Get in Touch</a></p>
 			</section>
-			<section ><!--class="big"-->
+			<section class="footerGeneral__section"><!--class="big"-->
 			<h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
 				<p>Receive our latest news and promotion in your inbox!</p>
 				<input type="email" placeholder="Your email address">
