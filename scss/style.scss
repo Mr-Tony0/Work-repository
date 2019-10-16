@@ -9,7 +9,7 @@ body{
 	max-width:1920px;
 	min-width:320px;
 }
-
+footerGeneral__section
 header{
 	display:flex;
 	justify-content:center;
@@ -133,7 +133,7 @@ nav{
 .end{
 	border-top:1px solid $darkLow;
 }
-.footer-center{
+.footerGeneral__sectionCenter{
 	//width:20%;
 	margin-left:2%;
 	
@@ -352,7 +352,7 @@ nav{
 		display:flex;
 	}
 	.footerGeneral{
-		.footer-center,.footerGeneral__section{
+		.footerGeneral__sectionCenter,.footerGeneral__section{
 			padding:0;
 
 		}
