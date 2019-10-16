@@ -15,15 +15,13 @@ header{
 	justify-content:center;
 	
 }
-.headerCenter,.logo,.menu,.menu__ul{
+.headerCenter,.logo,.headerCenter__menu,.headerCenter__ul{
 	display:flex;
 }
 .headerCenter,.headerMobile{
 	width:83%;
 }
 .logo{
-	padding-top:1%;
-	padding-bottom:1%;
 	height:100%;
 	width:30%;
 	
@@ -39,7 +37,7 @@ header{
 	height:15px;
 	
 }
-.menu{
+.headerCenter__menu{
 	width:70%;
 	
 }
@@ -57,7 +55,7 @@ header{
 .buttonRegistr_color{
 	@include butStylePurple;
 }
-.menu__ul{
+.headerCenter__ul{
 	list-style-type:none;
 	justify-content:space-around;
 	width:80%;
@@ -292,7 +290,7 @@ nav{
 }
 @media screen and (min-width: 600px) and (max-width: 1000px){
 
-	.menu{
+	.headerCenter__menu{
 		width:85%;
 	
 	}
@@ -302,7 +300,7 @@ nav{
 	}
 }
 @media screen and (min-width: 850px) and (max-width: 900px){
-	.menu{
+	.headerCenter__menu{
 		font-size:$sizeMedium;
 		select{
 			font-size:$sizeMedium;
@@ -318,7 +316,7 @@ nav{
 		width:95%;
 	}
 	
-	.menu{
+	.headerCenter__menu{
 		font-size:$sizeLow;
 		select{
 			font-size:$sizeLow;
