@@ -1,7 +1,7 @@
 @import 'color.scss';
 @import 'fonts.scss';
 @import 'mixins.scss';
-
+@import 'modification.scss';
 body{
 	
 	margin:0;
@@ -35,6 +35,21 @@ header{
 		font-size:19px;
 		font-family:$staticText;
 	}
+	&__menu{
+		width:70%;
+	}
+	&__clickBlock{
+		display:flex;
+		justify-content:flex-end;
+		width:100%;
+	}
+	&__click{
+		height: 60%;
+		width: 20px;
+		background-image: url(../img/nav.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
 }
 .logo{
 	&__img{
@@ -42,71 +57,34 @@ header{
 		margin-top:16%;
 	}
 }
-.logo-size{
-	width: 100%;
-	max-width:94.77px;
-}
-.headerCenter__menu{
-	width:70%;
-	
-}
+
 .buttonBlock{
 	display:flex;
+	
 	&__button{
 		height:50%;
 		margin:10px;
 		width:10%;
 	}
 }
-
-.buttonLogin_color{
-	@include butStyleTransparent;	
-}
-.buttonRegistr_color{
-	@include butStylePurple;
-}
-
-.headerCenter__clickBlock{
-	display:flex;
-	justify-content:flex-end;
-	width:100%;
-}
-.headerCenter__click{
-	height: 60%;
-    width: 20px;
-    background-image: url(../img/nav.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.mobile{
-	display:none;
-	justify-content:flex-end;
-	margin-top:5px;
-}
-.desktop{
-	display:flex;
-}
-nav{
+.navigation{
 	display:flex;
 	justify-content:center;
 	
-	li{
+	&__li{
 	list-style-type:none;
 	display:flex;
 	list-style-type:none;
 	justify-content:center;
 	width:80%;
-	select{
+	}
+	&__select{
 		color:$darkMedium;
 		border: none;
 		outline: none;
 		font-size:19px;
 		font-family:$staticText;
 		
-	}
-	a{
-		color:$darkMedium;
-	}
 	}
 }
 .footerCenter{
@@ -126,25 +104,29 @@ nav{
 	&__p{
 		margin:0;
 	}
+	&__sectionCenter{
+	
+		margin-left:2%;
+	}
+	&__section{
+		padding:0;
+		width:25%;
+	}
+	&__input{
+		margin-top:6%;
+		height:13%;
+		width:80%;
+	}
+	&__input[placeholder]{text-overflow:ellipsis;}
+	&__input::-moz-placeholder{text-overflow:ellipsis;} 
+	&__input:-moz-placeholder{text-overflow:ellipsis;} 
+	&__input:-ms-input-placeholder{text-overflow:ellipsis;}
 }
-.indentedZero{
-	margin:0;
-	padding:0;
-}
+
 .footerGeneral-center{
 	display:flex;
 	justify-content:center
 }
-.top-line{
-	border-top:1px solid $darkLow;
-}
-.footerGeneral__sectionCenter{
-	
-	margin-left:2%;
-	
-}
-
-
 .imgBlock{
 	
 	width:40%;
@@ -158,25 +140,6 @@ nav{
 		
 	}
 }
-.position{
-	float:right;
-	min-width:14.4px;
-}
-.footerGeneral__section{
-	padding:0;
-	width:25%;
-	input{
-		margin-top:6%;
-		height:13%;
-		width:80%;
-		
-	}
-	input[placeholder]{text-overflow:ellipsis;}
-	input::-moz-placeholder{text-overflow:ellipsis;} 
-	input:-moz-placeholder{text-overflow:ellipsis;} 
-	input:-ms-input-placeholder{text-overflow:ellipsis;}
-}
-
 .inputStandartElement{
 	@include inputStandart;
 	width:300px;
@@ -235,6 +198,7 @@ nav{
 		
 	}
 }
+
 .mini{
 	font-size:18px;
 }

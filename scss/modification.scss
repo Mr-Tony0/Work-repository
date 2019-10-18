@@ -1,0 +1,31 @@
+@import 'color.scss';
+@import 'fonts.scss';
+@import 'mixins.scss';
+.mobile{
+	display:none;
+	justify-content:flex-end;
+	margin-top:5px;
+}
+.desktop{
+	display:flex;
+}
+.buttonLogin_color{
+	@include butStyleTransparent;	
+}
+.buttonRegistr_color{
+	@include butStylePurple;
+}
+.indentedZero{
+	margin:0;
+	padding:0;
+}
+.imgBlock_size{}
+
+.position{
+	float:right;
+	min-width:14.4px;
+}
+
+.top-line{
+	border-top:1px solid $darkLow;
+}
