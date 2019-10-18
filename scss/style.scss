@@ -9,33 +9,42 @@ body{
 	max-width:1920px;
 	min-width:320px;
 }
-footerGeneral__section
+
 header{
 	display:flex;
 	justify-content:center;
 	
 }
-.headerCenter,.logo,.headerCenter__menu,.headerCenter__ul{
+.headerCenter,.headerCenter__menu,.headerCenter__ul{
 	display:flex;
 }
 .headerCenter,.headerMobile{
 	width:83%;
 }
+.headerCenter{
+	justify-content:space-between;
+	&__ul{
+		list-style-type:none;
+		justify-content:space-around;
+		width:80%;
+	}
+	&__select{
+		color:$darkMedium;
+		border: none;
+		outline: none;
+		font-size:19px;
+		font-family:$staticText;
+	}
+}
 .logo{
-	height:100%;
-	width:30%;
-	
+	&__img{
+		width:80.61px;
+		margin-top:16%;
+	}
 }
-.img_size{
-	width:40px;
-	height:40px;
-}
-.text_size{
-	margin-left:2%;
-	margin-top:12px;
-	margin-bottom:12px;
-	height:15px;
-	
+.logo-size{
+	width: 100%;
+	max-width:94.77px;
 }
 .headerCenter__menu{
 	width:70%;
@@ -43,34 +52,20 @@ header{
 }
 .buttonBlock{
 	display:flex;
+	&__button{
+		height:50%;
+		margin:10px;
+		width:10%;
+	}
 }
-.buttonBlock__button{
-	height:50%;
-	margin:10px;
-	width:10%;
-}
+
 .buttonLogin_color{
 	@include butStyleTransparent;	
 }
 .buttonRegistr_color{
 	@include butStylePurple;
 }
-.headerCenter__ul{
-	list-style-type:none;
-	justify-content:space-around;
-	width:80%;
-	select{
-		color:$darkMedium;
-		border: none;
-		outline: none;
-		font-size:19px;
-		font-family:$staticText;
-		
-	}
-	a{
-		color:$darkMedium;
-	}
-}
+
 .headerCenter__clickBlock{
 	display:flex;
 	justify-content:flex-end;
@@ -78,7 +73,7 @@ header{
 }
 .headerCenter__click{
 	height: 60%;
-    width: 32px;
+    width: 20px;
     background-image: url(../img/nav.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -118,51 +113,57 @@ nav{
 	width:100%;
 	display:flex;
 	justify-content:center;
-	margin-top:4%;
+	
+	
 }
 .footerGeneral{
 	display:flex;
 	width:83%;
 	justify-content:space-between;
-	
+	&__text{
+		width:60%;
+	}
+	&__p{
+		margin:0;
+	}
+}
+.indentedZero{
+	margin:0;
+	padding:0;
 }
 .footerGeneral-center{
 	display:flex;
 	justify-content:center
 }
-.end{
+.top-line{
 	border-top:1px solid $darkLow;
 }
 .footerGeneral__sectionCenter{
-	//width:20%;
+	
 	margin-left:2%;
 	
 }
-.foterEnd-center-img{
-	width:30%;
-	padding-top:1%;
+
+
+.imgBlock{
 	
-	img{
-		//float:right;
+	width:40%;
+	
+	&__img{
+		max-width:20px;
 		margin-left:4%;
 		min-width:14.4px;
-		width:5%;
-		//heigh:100px;
+		width:8%;
+		padding-top:4%;
+		
 	}
 }
 .position{
-
-	img{
-		float:right;
-		min-width:14.4px;
-	}
+	float:right;
+	min-width:14.4px;
 }
 .footerGeneral__section{
 	padding:0;
-	p{
-		padding:0;
-		margin:0;
-	}
 	width:25%;
 	input{
 		margin-top:6%;
@@ -294,10 +295,8 @@ nav{
 		width:85%;
 	
 	}
-	.logo{
-		width:15%;
 	
-	}
+	
 }
 @media screen and (min-width: 850px) and (max-width: 900px){
 	.headerCenter__menu{
@@ -363,13 +362,7 @@ nav{
 			font-size:11px;
 		}
 	}
-	.img_size{
-		width:20px;
-		height:20px;
-	}
-	.text_size{
-		height:8px;
-	}
+	
 	.second p{
 		width:100%;
 		margin-left:0%;

@@ -1,1 +1,47 @@
-@font-face{font-family:Quicksand;src:url(../fonts/Quicksand.ttf)}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat.ttf)}a{text-decoration:none;color:#8F8FA0}h1{font-size:26px;font-family:Quicksand;color:#1F2041}h2{font-size:24px;font-family:Quicksand;color:#1F2041}h3{font-family:Montserrat;font-size:20px;color:#1F2041}body{font-size:19px;color:#575870;font-family:Montserrat}p{font-size:19px;color:#575870;font-family:Montserrat}
+@charset "UTF-8";
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  /* Гарнитура шрифта */
+  src: url(../fonts/Montserrat.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+a {
+  text-decoration: none;
+  color: #8F8FA0;
+}
+
+h1 {
+  font-size: 26px;
+  font-family: Quicksand;
+  color: #1F2041;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Quicksand;
+  color: #1F2041;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #1F2041;
+}
+
+body {
+  font-size: 19px;
+  color: #575870;
+  font-family: Montserrat;
+}
+
+p {
+  font-size: 19px;
+  color: #575870;
+  font-family: Montserrat;
+}
