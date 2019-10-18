@@ -1,5 +1,8 @@
 var click = 0;
 $('nav').hide();
+if(document.body.clientWidth<750){
+	$('.logo__img').addClass('indentedZero');
+}
 var element = document.getElementById('click');
 element.onclick = function(){
 	click++

@@ -105,10 +105,11 @@ header{
 		margin:0;
 	}
 	&__sectionCenter{
-	
+		margin-top:5%;
 		margin-left:2%;
 	}
 	&__section{
+		margin-top:5%;
 		padding:0;
 		width:25%;
 	}
@@ -308,12 +309,6 @@ header{
 		
 		width:100%;
 	}
-	.desktop{
-		display:none;
-	}
-	.mobile{
-		display:flex;
-	}
 	.footerGeneral{
 		.footerGeneral__sectionCenter,.footerGeneral__section{
 			padding:0;
@@ -352,6 +347,7 @@ header{
 		}
 		.mini{}
 	}
+	
 }
 @media screen and (min-width: 750px) and (max-width: 870px){
 	.footerGeneral__section{
