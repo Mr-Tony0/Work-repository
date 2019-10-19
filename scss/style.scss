@@ -10,6 +10,8 @@ body{
 	min-width:320px;
 }
 
+	/***header style**/
+	
 header{
 	display:flex;
 	justify-content:center;
@@ -87,6 +89,10 @@ header{
 		
 	}
 }
+
+/***footer style**/
+
+
 .footerCenter{
 	width:100%;
 	display:flex;
@@ -124,10 +130,6 @@ header{
 	&__input:-ms-input-placeholder{text-overflow:ellipsis;}
 }
 
-.footerGeneral-center{
-	display:flex;
-	justify-content:center
-}
 .imgBlock{
 	
 	width:40%;
@@ -215,16 +217,10 @@ header{
 	height:40px;
 }
 
-.purple{
-	@include butStylePurple;
-}
 .buttonMini{
 	width:100px;
 	height:40px;
 	
-}
-.transparent{
-	@include butStyleTransparent;
 }
 .general{
 	background-image:url(../img/image3.png);
@@ -264,9 +260,11 @@ header{
 	
 }
 @media screen and (min-width: 850px) and (max-width: 900px){
-	.headerCenter__menu{
-		font-size:$sizeMedium;
-		select{
+	.headerCenter{
+		&__menu{
+			font-size:$sizeMedium;
+		}
+		&__select{
 			font-size:$sizeMedium;
 		}
 	}
@@ -278,11 +276,10 @@ header{
 
 	.headerCenter{
 		width:95%;
-	}
-	
-	.headerCenter__menu{
-		font-size:$sizeLow;
-		select{
+		&__menu{
+			font-size:$sizeLow;
+		}
+		&__select{
 			font-size:$sizeLow;
 		}
 	}
@@ -310,7 +307,7 @@ header{
 		width:100%;
 	}
 	.footerGeneral{
-		.footerGeneral__sectionCenter,.footerGeneral__section{
+		&__sectionCenter,&__section{
 			padding:0;
 
 		}
@@ -351,7 +348,7 @@ header{
 }
 @media screen and (min-width: 750px) and (max-width: 870px){
 	.footerGeneral__section{
-		input{
+		&__input{
 			width:160px;
 		}
 	}

@@ -33,8 +33,8 @@
 					<li class="headerCenter__li"><a class="headerCenter__link" href="">Documentation</a></li>
 				</ul>
 				<div class="buttonBlock">
-					<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
-					<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+					<button class="buttonBlock__button button-transparent">LOGIN</button>
+					<button class="buttonBlock__button button-purple">REGISTER</button>
 				</div>
 			</div>
 			<div class="headerCenter__clickBlock mobile">
@@ -64,8 +64,8 @@
 			<li class="navigation__li"><a class="navigation__link" href="">Documentation</a></li>
 		</ul>
 		<div class="buttonBlock">
-			<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
-			<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+			<button class="buttonBlock__button button-transparent">LOGIN</button>
+			<button class="buttonBlock__button button-purple">REGISTER</button>
 		</div>
 		
 	</nav>
@@ -122,8 +122,8 @@
 			<li class="navigation__li"><a class="navigation__link" href="">Documentation</a></li>
 		</ul>
 		<div class="buttonBlock">
-			<button class="buttonBlock__button buttonLogin_color">LOGIN</button>
-			<button class="buttonBlock__button buttonRegistr_color">REGISTER</button>
+			<button class="buttonBlock__button button-transparent">LOGIN</button>
+			<button class="buttonBlock__button button-purple">REGISTER</button>
 		</div>
 	</nav>
 	
@@ -279,9 +279,9 @@
 	
 	<!--buttons-->
 	
-	<button class="buttonMini purple">CLICK ME</button>
-	<button class="buttonMini transparent">CLICK ME</button>
-	<button class="buttonStandart purple">ПЕРЕЙТИ К ОПЛАТЕ</button>
+	<button class="buttonMini button-purple">CLICK ME</button>
+	<button class="buttonMini button-transparent">CLICK ME</button>
+	<button class="buttonStandart button-purple">ПЕРЕЙТИ К ОПЛАТЕ</button>
 	
 	<!--pagination(доделать!!!)-->
 	
@@ -293,28 +293,28 @@
 <!--big form-->
 
 <section class="bigForms">
-	<div class="forms">
-		<h3>Найдём номера под ваши пожелания</h3>
-		<div class="forms-flex">
-			<div>
-				<h3 class="mini">прибытие</h3>
-				<input type = "date" class="inputMiniElement">
+	<div class="order"><!--class="forms"-->
+		<h3 class="order__title">Найдём номера под ваши пожелания</h3>
+		<div class="flexBlock">
+			<div class="flexBlock__element">
+				<h3 class="flexBlock__title mini">прибытие</h3>
+				<input type = "date" class="flexBlock__input inputMiniElement">
 			</div>
-			<div>
-				<h3 class="mini">выезд</h3>
-				<input type = "date" class="inputMiniElement">
+			<div class="flexBlock__element">
+				<h3 class="flexBlock__title mini">выезд</h3>
+				<input type = "date" class="flexBlock__input inputMiniElement">
 			</div>
 		</div>
-		<h3 class="mini">гости</h3>
+		<h3 class="order__title mini">гости</h3>
 		
-		<select class="inputStandartElement">
+		<select class="order__select inputStandartElement">
 			<option>Сколько гостей</option>
 			<option>1</option>
 			<option>2</option>
 			<option>3</option>
 			<option>4+</option>
 		</select>
-		<button class="buttonStandart purple">ПОДОБРАТЬ НОМЕР</button>
+		<button class="buttonStandart button-purple">ПОДОБРАТЬ НОМЕР</button>
 	</div>
 	
 	<div class="forms">
@@ -330,11 +330,11 @@
 		<h3>данные для входа в сервис</h3>
 		<input type="text" placeholder= "Email" class="inputStandartElement">
 		<input type="text" placeholder= "Пароль" class="inputStandartElement">
-		<button class="buttonStandart purple">ПЕРЕЙТИ К ОПЛАТЕ</button>
+		<button class="buttonStandart button-purple">ПЕРЕЙТИ К ОПЛАТЕ</button>
 		<!--toggle add-->
 		<div class="forms-flex">
 			<p>уже есть аккаунт на TOXIN</p>
-			<button class="buttonMini transparent">Войти</button>
+			<button class="buttonMini button-transparent">Войти</button>
 		</div>
 	</div>
 	
@@ -385,14 +385,14 @@
 			<p>........................................................</p>
 			<h3>38 081р</h3>
 		</div>
-		<button class="buttonStandart purple">ЗАБРОНИРОВАТЬ</button>
+		<button class="buttonStandart button-purple">ЗАБРОНИРОВАТЬ</button>
 	</div>
 	
 	<div class="forms">
 		<h3>Войти</h3>
 		<input type="text" placeholder= "Email" class="inputStandartElement">
 		<input type="text" placeholder= "Пароль" class="inputStandartElement">
-		<button class="buttonStandart purple">Войти</button>
+		<button class="buttonStandart button-purple">Войти</button>
 		<div class="forms-flex">
 			<p>Нет аккаунта на TOXIN ?</p>
 			<button class="buttonMini transparent">CLICK ME</button>

@@ -9,12 +9,7 @@
 .desktop{
 	display:flex;
 }
-.buttonLogin_color{
-	@include butStyleTransparent;	
-}
-.buttonRegistr_color{
-	@include butStylePurple;
-}
+
 .indentedZero{
 	margin:0;
 	padding:0;
@@ -28,6 +23,15 @@
 .top-line{
 	border-top:1px solid $darkLow;
 }
+
+.button-transparent{
+	@include butStyleTransparent;
+}
+.button-purple{
+	@include butStylePurple;
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 750px){
 	.desktop{
 		display:none;
