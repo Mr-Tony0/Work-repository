@@ -155,7 +155,7 @@ header{
 .inputMiniElement{
 	@include inputStandart;
 }
-.forms{
+.form{
 	display:flex;
 	flex-direction:column;
 	background:white;
@@ -205,8 +205,11 @@ header{
 .mini{
 	font-size:18px;
 }
-.forms-flex{
-	display:flex;	
+.flexBlock{
+	display:flex;
+	&__text{}
+	&__title{}
+	&__element{}
 }
 .arround{
 	justify-content:space-around;

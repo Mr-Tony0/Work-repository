@@ -293,21 +293,22 @@
 <!--big form-->
 
 <section class="bigForms">
-	<div class="order"><!--class="forms"-->
-		<h3 class="order__title">Найдём номера под ваши пожелания</h3>
+
+	<div class="form"><!--class="forms"-->
+		<h3 class="form__title">Найдём номера под ваши пожелания</h3>
 		<div class="flexBlock">
 			<div class="flexBlock__element">
 				<h3 class="flexBlock__title mini">прибытие</h3>
-				<input type = "date" class="flexBlock__input inputMiniElement">
+				<input type = "date" class="inputMiniElement flexBlock__input">
 			</div>
 			<div class="flexBlock__element">
 				<h3 class="flexBlock__title mini">выезд</h3>
-				<input type = "date" class="flexBlock__input inputMiniElement">
+				<input type = "date" class="inputMiniElement flexBlock__input">
 			</div>
 		</div>
-		<h3 class="order__title mini">гости</h3>
+		<h3 class="form__title mini">гости</h3>
 		
-		<select class="order__select inputStandartElement">
+		<select class="inputStandartElement form__select">
 			<option>Сколько гостей</option>
 			<option>1</option>
 			<option>2</option>
@@ -317,85 +318,91 @@
 		<button class="buttonStandart button-purple">ПОДОБРАТЬ НОМЕР</button>
 	</div>
 	
-	<div class="forms">
-		<h3>Регистрация аккаунта</h3>
-		<input type="text" placeholder= "Имя" class="inputStandartElement">
-		<input type="text" placeholder= "Фамилия" class="inputStandartElement">
-		<div class="forms-flex">
-			<input type="radio"> Мужчина
-			<input type="radio"> Женщина
+	
+	
+	
+
+	<div class="form">
+		<h3 class="form__title">Регистрация аккаунта</h3>
+		<input  type="text" placeholder= "Имя" class="inputStandartElement form__input">
+		<input type="text" placeholder= "Фамилия"class="inputStandartElement form__input">
+		
+		<div class="flexBlock">
+			<input class="radiobButton flexBlock__input" type="radio"> Мужчина
+			<input class="radiobButton flexBlock__input" type="radio"> Женщина
 		</div>
-		<h3>дата рождение</h3>
-		<input type="number" placeholder="дд.мм.гггг" class="inputStandartElement">
-		<h3>данные для входа в сервис</h3>
-		<input type="text" placeholder= "Email" class="inputStandartElement">
-		<input type="text" placeholder= "Пароль" class="inputStandartElement">
+		
+		<h3 class="form__title mini">дата рождение</h3>
+		<input type="number" placeholder="дд.мм.гггг" class="inputStandartElement form__input">>
+		<h3 class="form__title mini">данные для входа в сервис</h3>
+		<input type="text" placeholder= "Email" class="inputStandartElement form__input">>
+		<input type="text" placeholder= "Пароль" class="inputStandartElement form__input">>
 		<button class="buttonStandart button-purple">ПЕРЕЙТИ К ОПЛАТЕ</button>
 		<!--toggle add-->
-		<div class="forms-flex">
-			<p>уже есть аккаунт на TOXIN</p>
+		<div class="flexBlock">
+			<p class="flexBlock__text">уже есть аккаунт на TOXIN</p>
 			<button class="buttonMini button-transparent">Войти</button>
 		</div>
 	</div>
 	
-	<div class="forms">
+	<div class="form">
 		
-		<div class="forms-flex">
-			<div class="forms-flex">
-				<h3>№ 888 </h3>
-				<p>люкс</p>
+		<div class="flexBlock">
+			<div class="flexBlock">
+				<h3 class="flexBlock__title">№ 888 </h3>
+				<p class="flexBlock__text">люкс</p>
 			</div>
-			<div>
-				<p>9 990 в сутки</p>
+			<div class="flexBlock__element">
+				<p class="flexBlock__text">9 990 в сутки</p>
 			</div>
 		</div>
-		<div class="forms-flex">
-			<div>
-				<h3>прибытие</h3>
-				<input type = "date" class="inputMiniElement">
+		<div class="flexBlock">
+			<div class="flexBlock__element">
+				<h3 class="flexBlock__title mini">прибытие</h3>
+				<input type = "date" class="inputMiniElement flexBlock__input">
 			</div>
-			<div>
-				<h3>выезд</h3>
-				<input type = "date" class="inputMiniElement">
+			<div class="flexBlock__element">
+				<h3 class="flexBlock__title mini">выезд</h3>
+				<input type = "date" class="inputMiniElement flexBlock__input">
 			</div>
 		</div>
-		<h3>гости</h3>
+		<h3 class="form__title">гости</h3>
 		
-		<select class="inputStandartElement">
+		<select class="inputStandartElement form__select">
 			<option>Сколько гостей</option>
 			<option>1</option>
 			<option>2</option>
 			<option>3</option>
 			<option>4+</option>
 		</select>
-		<div class="forms-flex">
-			<p>9 990р x 4 суток</p>
-			<p>39 960р</p>
+		<div class="flexBlock">
+			<p class="flexBlock__text">9 990р x 4 суток</p>
+			<p class="flexBlock__text">39 960р</p>
 		</div>
-		<div class="forms-flex">
-			<p>Сбор за услуги: скидка 2 179р</p>
-			<p>0р</p>
+		<div class="flexBlock">
+			<p class="flexBlock__text">Сбор за услуги: скидка 2 179р</p>
+			<p class="flexBlock__text">0р</p>
 		</div>
-		<div class="forms-flex">
-			<p>Сбор за дополнительные услуги</p>
-			<p>300р</p>
+		<div class="flexBlock">
+			<p class="flexBlock__text">Сбор за дополнительные услуги</p>
+			<p class="flexBlock__text">300р</p>
 		</div>
-		<div class="forms-flex">
-			<h3>Итоги</h3>
-			<p>........................................................</p>
-			<h3>38 081р</h3>
+		<div class="flexBlock">
+			<h3 class="flexBlock__title mini">Итоги</h3>
+			<p class="flexBlock__text">........................................................</p>
+			<h3 class="flexBlock__title mini">38 081р</h3>
 		</div>
 		<button class="buttonStandart button-purple">ЗАБРОНИРОВАТЬ</button>
 	</div>
 	
-	<div class="forms">
-		<h3>Войти</h3>
-		<input type="text" placeholder= "Email" class="inputStandartElement">
-		<input type="text" placeholder= "Пароль" class="inputStandartElement">
+	<div class="form">
+		<h3 class="form__title">Войти</h3>
+		<input type="text" placeholder= "Email" class="inputStandartElement form__input">
+		<input type="text" placeholder= "Пароль" class="inputStandartElement form__input">
 		<button class="buttonStandart button-purple">Войти</button>
-		<div class="forms-flex">
-			<p>Нет аккаунта на TOXIN ?</p>
-			<button class="buttonMini transparent">CLICK ME</button>
+		<div class="flexBlock">
+			<p class="flexBlock__text">Нет аккаунта на TOXIN ?</p>
+			<button class="buttonMini button-transparent">CLICK ME</button>
 		</div>
 	</div>
 </section>

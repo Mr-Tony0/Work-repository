@@ -422,7 +422,7 @@ header {
   height: 35px;
 }
 
-.forms {
+.form {
   display: flex;
   flex-direction: column;
   background: white;
@@ -481,7 +481,7 @@ header {
   font-size: 18px;
 }
 
-.forms-flex {
+.flexBlock {
   display: flex;
 }
 
