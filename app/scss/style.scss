@@ -148,7 +148,7 @@ header{
 		
 .inputStandartElement{
 	@include inputStandart;
-	width:300px;
+	width:320px;
 	//min-height:30px;
 	
 }
@@ -177,21 +177,24 @@ header{
 	flex-direction:column;
 	background:white;
 	border-radius: 4px;
-	width:360px;
-	height:320px;
+	width:380px;
+	
 	&__button{
 		margin-left:5%;
-		margin-top:5%;
+		margin-top:6%;
 		margin-bottom:5%;
 	}
 	&__select{
 		margin-left:5%;
 	}
 	&__input{
+		margin-top:2%;
 		margin-left:5%;
 	}
 	&__title{
 		margin-left:5%;
+		margin-block-start: 0.5em;
+		margin-block-end: 0.5em;
 	}
 	&__text{
 		margin-left:5%;
@@ -201,10 +204,17 @@ header{
 	display:flex;
 	justify-content:space-around;
 	//width:98%;
-	&__text{}
-	&__title{}
+	&__text{
+		margin-block-start: 0.5em;
+		margin-block-end: 0.5em;
+	}
+	&__title{
+		margin-block-start: 0.5em;
+		margin-block-end: 0.5em;
+	}
 	&__element{
 		//margin-left:5%;
+		
 	}
 }
 
@@ -218,15 +228,24 @@ header{
 		width:100%;
 		height:50%;
 		display:flex;
-		padding-top:4%;
+		padding-top:5%;
 	}
 	&__text{
 		margin-top:320px;
 		height:20px;
 	}
+	
+	&__center{
+		display:flex;
+		justify-content:center;
+	}
 }
 .general{
 	background-image:url(../img/image3.png);
+	@include generalBlock;
+}
+.general-registr{
+	background-image:url(../img/image4.png);
 	@include generalBlock;
 }
 
@@ -350,6 +369,10 @@ header{
 		&__select,&__button{
 			width:200px;
 		}
+		&__input{
+			width:220px;
+		}
+
 	}
 	.flexBlock__input{
 		width:100px;
