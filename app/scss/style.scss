@@ -160,7 +160,7 @@ header{
 	@include inputStandart;
 }
 .buttonStandart{
-	width:300px;
+	width:320px;
 	height:40px;
 }
 
@@ -176,6 +176,7 @@ header{
 	display:flex;
 	flex-direction:column;
 	background:white;
+	justify-content:space-around;
 	border-radius: 4px;
 	width:380px;
 	
@@ -202,19 +203,25 @@ header{
 }
 .flexBlock{
 	display:flex;
-	justify-content:space-around;
-	//width:98%;
 	&__text{
 		margin-block-start: 0.5em;
 		margin-block-end: 0.5em;
+		margin-left:5%;
 	}
 	&__title{
 		margin-block-start: 0.5em;
 		margin-block-end: 0.5em;
 	}
 	&__element{
-		//margin-left:5%;
+		margin-left:5%;
 		
+	}
+	&__radio{
+	//	width:5%;
+	}
+	&__button{
+		margin-left:5%;
+		margin-top:1%;
 	}
 }
 
@@ -279,7 +286,7 @@ header{
 			font-size:$sizeMedium;
 		}
 	}
-	.general{
+	.general,.general-registr{
 		height:750px;
 	}
 	.generalCenter{
@@ -289,6 +296,9 @@ header{
 		height:20px;
 		font-size:18px;
 		}
+	}
+	.flexBlock__text{
+		font-size:18px;
 	}
 }
 @media screen and (min-width: 750px) and (max-width: 850px){
@@ -314,7 +324,7 @@ header{
 			margin-left:10%;
 		}
 	}
-	.general{
+	.general,.general-registr{
 		height:650px;
 	}
 	.generalCenter{
@@ -324,6 +334,9 @@ header{
 		height:20px;
 		font-size:16px;
 		}
+	}
+	.flexBlock__text{
+		font-size:16px;
 	}
 	
 }
@@ -352,7 +365,7 @@ header{
 		width:100%;
 		font-size:15px;
 	}
-	.general{
+	.general,.general-registr{
 		height:550px;
 	}
 	.generalCenter{
@@ -362,6 +375,9 @@ header{
 		height:20px;
 		font-size:15px;
 		}
+	}
+	.flexBlock__text{
+		font-size:15px;
 	}
 	.form{
 		width:260px;
